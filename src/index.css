@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ * {
+  color:#f4f4f4 ;
+
+ }
+ 
+ body{
+ background: linear-gradient(to right, #022c22, #018077); }
+
+
+ #tasklist::-webkit-scrollbar{display: none;}

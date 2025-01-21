@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed",
+    "email": "ahmed@company.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": false,
+        "newtask": false,
+        "completed": true,
+        "failed": false,
+        "taskTitle": "Integration Tests",
+        "taskDescription": "Write and run integration tests to ensure all APIs work as expected.",
+        "taskDate": "Nov. 8, 2024",
+        "category": "Testing",
+        "severity": "Low"
+      },{
+        "active": false,
+        "newtask": false,
+        "completed": false,
+        "failed": true,
+        "taskTitle": "Bug Fixing and QA",
+        "taskDescription": "Fix major bugs reported in the last sprint and conduct quality assurance testing.",
+        "taskDate": "Nov. 6, 2024",
+        "category": "Quality Assurance",
+        "severity": "Fatal"
+      },{
+        "active": true,
+        "newtask": false,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Project NEON Design Phase",
+        "taskDescription": "Complete the initial design phase for Project NEON including wireframes and user flow diagrams.",
+        "taskDate": "Nov. 10, 2024",
+        "category": "Design",
+        "severity": "High"
+      },
+      {
+        "active": false,
+        "newtask": true,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "UI Enhancements",
+        "taskDescription": "Improve the user interface elements and ensure they align with the design guidelines.",
+        "taskDate": "Nov. 12, 2024",
+        "category": "Design",
+        "severity": "Medium"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fatima",
+    "email": "fatima@company.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": true,
+        "newtask": false,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Backend API Development",
+        "taskDescription": "Develop RESTful APIs for the new feature in Project NEON, ensuring scalability and security.",
+        "taskDate": "Nov. 12, 2024",
+        "category": "Development",
+        "severity": "High"
+      },
+      {
+        "active": false,
+        "newtask": true,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Database Optimization",
+        "taskDescription": "Optimize the database queries for better performance and response time.",
+        "taskDate": "Nov. 14, 2024",
+        "category": "Development",
+        "severity": "Medium"
+      },
+      {
+        "active": false,
+        "newtask": false,
+        "completed": true,
+        "failed": false,
+        "taskTitle": "Integration Tests",
+        "taskDescription": "Write and run integration tests to ensure all APIs work as expected.",
+        "taskDate": "Nov. 8, 2024",
+        "category": "Testing",
+        "severity": "Low"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Aisha",
+    "email": "aisha@company.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": false,
+        "newtask": true,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Prepare Presentation Slides",
+        "taskDescription": "Create slides for the upcoming client presentation detailing project progress.",
+        "taskDate": "Nov. 13, 2024",
+        "category": "Presentation",
+        "severity": "Medium"
+      },
+      {
+        "active": true,
+        "newtask": false,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Client Meeting for Feedback",
+        "taskDescription": "Attend the client meeting to gather feedback and take notes for further improvements.",
+        "taskDate": "Nov. 8, 2024",
+        "category": "Meetings",
+        "severity": "High"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Zain",
+    "email": "zain@company.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": true,
+        "newtask": false,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Marketing Strategy for Launch",
+        "taskDescription": "Develop a comprehensive marketing strategy to promote the upcoming launch of Project NEON.",
+        "taskDate": "Nov. 15, 2024",
+        "category": "Marketing",
+        "severity": "High"
+      },
+      {
+        "active": false,
+        "newtask": true,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Email Campaign",
+        "taskDescription": "Design and send an email campaign targeting potential users.",
+        "taskDate": "Nov. 17, 2024",
+        "category": "Marketing",
+        "severity": "Medium"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Yasir",
+    "email": "yasir@company.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": false,
+        "newtask": false,
+        "completed": false,
+        "failed": true,
+        "taskTitle": "Bug Fixing and QA",
+        "taskDescription": "Fix major bugs reported in the last sprint and conduct quality assurance testing.",
+        "taskDate": "Nov. 6, 2024",
+        "category": "Quality Assurance",
+        "severity": "Fatal"
+      },
+      {
+        "active": true,
+        "newtask": false,
+        "completed": false,
+        "failed": false,
+        "taskTitle": "Performance Testing",
+        "taskDescription": "Run performance tests to identify bottlenecks in the current system.",
+        "taskDate": "Nov. 11, 2024",
+        "category": "Testing",
+        "severity": "High"
+      }
+    ]
+  }
+]
