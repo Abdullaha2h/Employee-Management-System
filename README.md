@@ -39,5 +39,5 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/Employee-Management-System.git
+   https://github.com/Abdullaha2h/Employee-Management-System/tree/main
    cd Employee-Management-System
