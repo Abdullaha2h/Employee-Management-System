@@ -3,7 +3,7 @@ import React from "react";
 const FailedTask = ({ task, getSeverityColor }) => {
   return (
     <div
-      className="flex-shrink-0 h-full w-64 rounded-xl bg-gradient-to-r from-red-700/50 to-red-900/50 border border-red-600 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_red] transition-shadow p-5 relative"
+      className="flex-shrink-0 h-full lg:w-64 sm:w-full  rounded-xl bg-gradient-to-r from-red-700/50 to-red-900/50 border border-red-600 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_red] transition-shadow p-5 relative"
     >
       <div className="flex justify-between items-center">
         <h3

@@ -3,7 +3,7 @@ import React from "react";
 const CompleteTask = ({ task, getSeverityColor }) => {
   return (
     <div
-      className="flex-shrink-0 h-full w-64 rounded-xl bg-gradient-to-r from-green-700 to-green-900 border border-green-600 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_green] transition-shadow p-5 relative"
+      className="flex-shrink-0 h-full lg:w-64 sm:w-full rounded-xl bg-gradient-to-r from-green-700 to-green-900 border border-green-600 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_green] transition-shadow p-5 relative"
     >
      
       <div className="flex justify-between items-center">

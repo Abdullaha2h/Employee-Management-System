@@ -3,7 +3,7 @@ import React from "react";
 const NewTask = ({ task, getSeverityColor, employeeName }) => {
   return (
     <div
-      className="flex-shrink-0 h-full w-64 rounded-xl bg-gradient-to-r from-cyan-600/50 to-cyan-700/50 border border-cyan-400 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_cyan] transition-shadow p-5"
+      className="flex-shrink-0 h-full lg:w-64 sm:w-full  rounded-xl bg-gradient-to-r from-cyan-600/50 to-cyan-700/50 border border-cyan-400 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_cyan] transition-shadow p-5"
     >
       <div className="flex justify-between items-center">
         <h3
