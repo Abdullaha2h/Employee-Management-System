@@ -23,14 +23,13 @@ const TaskList = ({ data }) => {
   return (
     <div
       id="tasklist"
-      className="overflow-x-auto w-full px-3 h-80 py-5 flex items-center justify-start gap-5 flex-nowrap"
-    > 
-
+      className="w-full  px-3 py-5 flex flex-col gap-5 sm:flex-row sm:flex-nowrap sm:overflow-x-auto sm:items-center"
+    >
       {data.tasks.map((task, index) => {
         if (task.active) {
           return (
             <ActiveTask
-            key={index}
+              key={index}
               task={task}
               getSeverityColor={getSeverityColor}
             />
@@ -38,7 +37,7 @@ const TaskList = ({ data }) => {
         } else if (task.failed) {
           return (
             <FailedTask
-            key={index}
+              key={index}
               task={task}
               getSeverityColor={getSeverityColor}
             />
@@ -46,7 +45,7 @@ const TaskList = ({ data }) => {
         } else if (task.completed) {
           return (
             <CompleteTask
-            key={index}
+              key={index}
               task={task}
               getSeverityColor={getSeverityColor}
             />
@@ -54,7 +53,7 @@ const TaskList = ({ data }) => {
         } else if (task.newtask) {
           return (
             <NewTask
-            key={index}
+              key={index}
               task={task}
               employeeName={data.name}
               getSeverityColor={getSeverityColor}

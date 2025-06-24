@@ -35,17 +35,16 @@ const CreateTask = () => {
     setAssignTo('');
     setCategory('');
     setSeverity('');
-  }
+  };
 
-  
   return (
-    <div className="h-auto mt-5 w-full rounded-xl bg-white/10 border border-white/40 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_teal] transition-shadow p-5 px-20">
+    <div className="h-auto mt-5 w-full rounded-xl bg-white/10 border border-white/40 text-white backdrop-blur-md font-semibold tracking-wide shadow-lg hover:shadow-[0_0_10px_teal] transition-shadow p-5 px-5 lg:px-20">
       <form
-        className="flex flex-start justify-between gap-5"
-        onSubmit={(e) => submitHandler(e)}
+        className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-10"
+        onSubmit={submitHandler}
       >
-        
-        <div className="flex flex-col gap-2 w-1/3">
+        {/* Left Column */}
+        <div className="flex flex-col gap-2 w-full lg:w-1/3">
           <div>
             <h3 className="text-lg font-medium text-white/80">Task Title</h3>
             <input
@@ -91,7 +90,7 @@ const CreateTask = () => {
         </div>
 
         {/* Right Column */}
-        <div className="flex flex-col gap-3 w-1/2">
+        <div className="flex flex-col gap-3 w-full lg:w-1/2">
           <div>
             <h3 className="text-lg font-medium text-white/80">Description</h3>
             <textarea
@@ -111,21 +110,11 @@ const CreateTask = () => {
               onChange={(e) => setSeverity(e.target.value)}
               className="mt-1 w-full px-3 py-2 rounded-lg bg-white/20 text-white font-light outline-none border border-white/30 focus:ring-2 focus:ring-teal-500"
             >
-              <option className='text-neutral-900'>
-                Select Severity
-              </option>
-              <option value="Low" className="text-green-500 font-bold text-sm">
-                Low
-              </option>
-              <option value="Medium" className="text-yellow-500  font-bold text-sm">
-                Medium
-              </option>
-              <option value="High" className="text-red-500  font-bold  text-sm">
-                High
-              </option>
-              <option value="Fatal" className="text-red-700  font-bold text-sm">
-                Fatal
-              </option>
+              <option className='text-neutral-900'>Select Severity</option>
+              <option value="Low" className="text-green-500 font-bold text-sm">Low</option>
+              <option value="Medium" className="text-yellow-500 font-bold text-sm">Medium</option>
+              <option value="High" className="text-red-500 font-bold text-sm">High</option>
+              <option value="Fatal" className="text-red-700 font-bold text-sm">Fatal</option>
             </select>
           </div>
 

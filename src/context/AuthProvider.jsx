@@ -4,10 +4,16 @@ import { getLocalStorage, setLocalStorage } from '../utils/localStorage';
 export const Authcontext = createContext();
 
 const AuthProvider = ({ children }) => {
-  const [userData, setUserData] = useState(null);
+  const [userData, setUserData] = useState({ employees: [], admin: [] });
 
   useEffect(() => {
-    const { employees, admin } = getLocalStorage();
+    // 🔐 Seed localStorage if it’s empty
+    const existing = getLocalStorage();
+    if (!existing.employees || !existing.admin) {
+      setLocalStorage(); // ✅ write AdminData and EmployeeData
+    }
+
+    const { employees = [], admin = [] } = getLocalStorage();
     setUserData({ employees, admin });
   }, []);
 

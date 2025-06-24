@@ -7,6 +7,7 @@ const Login = ({ handleLogin }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
+   
     handleLogin(email, password);
     console.log("Email is", email);
     console.log("Password is", password);
@@ -41,10 +42,7 @@ const Login = ({ handleLogin }) => {
             className="w-full px-4 py-2 rounded-lg bg-white/10 text-white placeholder-white/50 outline-none backdrop-blur-md border border-white/30 focus:ring-2 focus:ring-blue-500"
           />
         </div>
-        
-
-
-        <Button text="Login"></Button>
+        <Button text="Login" ></Button>
         <div className="text-sm text-white  p-4 max-w-md text-center ">
   <p className="font-semibold mb-2 text-yellow-300">Demo Access Notice</p>
   <p className="text-white/90">
